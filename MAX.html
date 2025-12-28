@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            MAX PAGE
+        </title>
+    </head>
+    <style>
+        .bgvideo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .btn{
+            position: absolute;
+            transform: translateX(-50%);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+            text-align: center;
+            padding: 20px;
+            font-size: 15px;
+            background-color: black;
+            border: 2px solid white;
+            color:red;
+        }
+        .Exit-btn{
+            background-color: black;
+            justify-content: right;
+            border: 2px solid whitesmoke;
+            color: red;
+        }
+        .Exit-btn:hover{
+            transform: scale(1.1);
+            background-color:lightcyan;
+        }
+    </style>
+    <body>
+        <video class="bgvideo" autoplay loop muted>
+            <source src="MAX.mp4">
+        </video>
+        <form action="HOME Page.html">
+        <button class="Exit-btn">EXIT</button>
+        </form>
+    </body>
+</html>
